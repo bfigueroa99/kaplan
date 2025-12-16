@@ -1,0 +1,185 @@
+\documentclass[12pt,a4paper,oneside]{book}
+
+% ============================================
+% PACKAGES
+% ============================================
+
+% Language and encoding
+\usepackage[english]{babel}         % Set document language to English
+\usepackage[utf8]{inputenc}         % UTF-8 input encoding
+\usepackage[T1]{fontenc}            % T1 font encoding for better output
+
+% Mathematics
+\usepackage{amsmath}                % Advanced math typesetting
+\usepackage{amssymb}                % Mathematical symbols
+\usepackage{amsthm}                 % Theorem environments
+\usepackage{mathtools}              % Extensions to amsmath
+
+% Graphics and figures
+\usepackage{graphicx}               % Include graphics
+\usepackage{float}                  % Better float control
+\usepackage{caption}                % Customize captions
+\usepackage{subcaption}             % Support for subfigures
+
+% Tables
+\usepackage{array}                  % Enhanced table formatting
+\usepackage{booktabs}               % Professional quality tables
+\usepackage{multirow}               % Multi-row cells in tables
+\usepackage{tabularx}               % Tables with adjustable width
+\usepackage{longtable}              % Tables that break across pages
+
+% Colors
+\usepackage[dvipsnames,table]{xcolor} % Color support
+\usepackage{tcolorbox}              % Colored boxes
+
+% Page layout and spacing
+\usepackage{geometry}               % Page dimensions
+\usepackage{setspace}               % Line spacing control
+\usepackage{parskip}                % Paragraph spacing
+
+% Lists and enumerations
+\usepackage{enumitem}               % Customize lists
+
+% Headers and footers
+\usepackage{fancyhdr}               % Custom headers and footers
+
+% Cross-referencing and hyperlinks
+\usepackage{hyperref}               % Hyperlinks (load near end)
+\usepackage[nameinlink]{cleveref}   % Intelligent cross-referencing
+
+% Custom Macros
+\input{macros.tex}
+
+% Miscellaneous
+\usepackage{lipsum}                 % Dummy text (can remove if not needed)
+\usepackage{titlesec}               % Customize chapter/section titles
+
+% ============================================
+% PAGE LAYOUT
+% ============================================
+\geometry{
+    margin=1in,
+    headheight=15pt,
+    includeheadfoot
+}
+\onehalfspacing
+
+% ============================================
+% GRAPHICS PATH
+% ============================================
+\graphicspath{{./Images/}{./}}
+
+% ============================================
+% CHAPTER TITLE FORMATTING (reduce top space)
+% ============================================
+\titleformat{\chapter}[display]
+    {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+
+% ============================================
+% HYPERREF CONFIGURATION
+% ============================================
+\hypersetup{
+    colorlinks=false,
+    linkcolor=black,
+    filecolor=black,
+    citecolor=green,
+    bookmarksnumbered=true,
+    pdfstartview=FitH,
+    pdftitle={Kaplan Course Notes},
+    pdfauthor={Benjamin Figueroa},
+    pdfsubject={Course Notes},
+    pdfkeywords={Kaplan, English}
+}
+
+% ============================================
+% HEADER AND FOOTER STYLE
+% ============================================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Plain style for chapter pages
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{0.4pt}
+}
+
+% ============================================
+% CAPTION SETTINGS
+% ============================================
+\captionsetup{
+    font=small,
+    labelfont=bf,
+    format=plain,
+    justification=centering
+}
+
+% ============================================
+% THEOREM ENVIRONMENTS (if needed)
+% ============================================
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{example}{Example}[chapter]
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+
+% ============================================
+% DOCUMENT INFORMATION
+% ============================================
+\title{Kaplan Course Notes\\[0.5em]\large English Language and Business Communication}
+\author{Benjamin Figueroa}
+\date{\today}
+
+\begin{document}
+
+% ============================================
+% FRONT MATTER
+% ============================================
+\frontmatter
+
+
+\maketitle
+
+\tableofcontents
+\cleardoublepage
+
+% ============================================
+% MAIN MATTER
+% ============================================
+\mainmatter
+
+% % Include chapters
+\include{Chapters/chapter01}
+\include{Chapters/chapter02}
+\include{Chapters/chapter03}
+\include{Chapters/chapter04}
+\include{Chapters/chapter05}
+\include{Chapters/chapter06}
+\include{Chapters/chapter07}
+\include{Chapters/chapter08}
+\include{Chapters/chapter09}
+\include{Chapters/chapter10}
+\include{Chapters/chapter11}
+\include{Chapters/chapter12}
+\include{Chapters/chapter13}
+\include{Chapters/chapter14}
+
+\appendix
+\include{Chapters/vocabulary}
+\include{Chapters/verbs}
+\include{Chapters/references}
+% ============================================
+% BACK MATTER (for future additions)
+% =================================== =========
+% \backmatter
+% \bibliographystyle{plain}
+% \bibliography{references}
+
+\end{document}
+

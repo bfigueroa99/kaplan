@@ -1,0 +1,51 @@
+% ============================================
+% CUSTOM MACROS AND ENVIRONMENTS
+% ============================================
+
+% Colors
+\definecolor{primaryColor}{RGB}{0, 102, 204}    % Blue
+\definecolor{secondaryColor}{RGB}{255, 153, 51} % Orange
+\definecolor{accentColor}{RGB}{51, 153, 102}    % Green
+\definecolor{lightGray}{RGB}{245, 245, 245}
+
+% Box for Vocabulary
+\newtcolorbox{vocabbox}[1][]{
+    colback=lightGray,
+    colframe=primaryColor,
+    fonttitle=\bfseries,
+    title=Vocabulary Focus,
+    #1
+}
+
+% Box for Grammar
+\newtcolorbox{grammarbox}[1][]{
+    colback=white,
+    colframe=secondaryColor,
+    fonttitle=\bfseries,
+    title=Grammar Point,
+    #1
+}
+
+% Box for Examples
+\newtcolorbox{examplebox}[1][]{
+    colback=white,
+    colframe=accentColor,
+    fonttitle=\bfseries,
+    title=Examples,
+    #1
+}
+
+% Box for Dialogues/Reading
+\newtcolorbox{readingbox}[1][]{
+    colback=lightGray,
+    colframe=black,
+    fonttitle=\bfseries,
+    title=Reading Context,
+    #1
+}
+
+% Command for translations
+\newcommand{\trans}[1]{\textit{\color{gray} (#1)}}
+
+% Command for key terms
+\newcommand{\keyterm}[1]{\textbf{\color{primaryColor} #1}}
