@@ -2,28 +2,6 @@
 
 Future tenses describe actions or events that will happen. They help you express plans, predictions, schedules, and actions that will be completed at a later time. Mastering these forms improves clarity and effectiveness in everyday communication.
 
-\section{Going To vs Will for Future Plans and Predictions}
-
-Two common ways to express future actions in English are using ``going to'' and ``will''. Understanding the difference between these two forms is essential for effective communication.
-
-\begin{tcolorbox}[colback=blue!5, colframe=blue!30, title=Future Tense Comparison]
-
-	\textbf{``Going to''} is used for plans or intentions that have already been decided before the moment of speaking. 
-
-	\textit{Example.} ``I am going to visit my grandparents next weekend.'' 
-
-This indicates a pre-planned action.
-
-\vspace{0.5cm}
-
-	\textbf{``Will''} is used for spontaneous decisions made at the moment of speaking or for predictions about the future. 
-
-	\textit{Example.} ``I will help you with your homework.'' 
-
-This indicates a decision made on the spot or a prediction based on current knowledge.
-
-\end{tcolorbox}
-
 
 
 \section{Future Simple (Will)}
@@ -44,6 +22,48 @@ The future simple with ``will'' expresses decisions made at the moment of speaki
     \item ``We won't be late.'' (negative)
     \item ``Will you help me?'' (offer/request)
 \end{itemize}
+\end{tcolorbox}
+
+
+\section{Future Simple (Going To)}
+
+The future simple with ``going to'' is used for planned actions or intentions and predictions based on present evidence.
+
+\begin{tcolorbox}[colback=red!5, colframe=red!30, title=Future Simple (Going To)]
+\textbf{Structure:}
+\begin{itemize}
+    \item Affirmative: Subject + am/is/are + going to + base verb
+    \item Negative: Subject + am/is/are not + going to + base verb
+    \item Interrogative: Am/Is/Are + subject + going to + base verb?
+\end{itemize}
+\textbf{Examples:}
+\begin{itemize}
+    \item ``I am going to start a new job next month.''
+    \item ``She is not going to attend the meeting.''
+    \item ``Are they going to move to a new house?''
+\end{itemize}
+\end{tcolorbox}
+
+\section{Going To vs Will for Future Plans and Predictions}
+
+Two common ways to express future actions in English are using ``going to'' and ``will''. Understanding the difference between these two forms is essential for effective communication.
+
+\begin{tcolorbox}[colback=blue!5, colframe=blue!30, title=Future Tense Comparison]
+
+	\textbf{``Going to''} is used for plans or intentions that have already been decided before the moment of speaking. 
+
+	\textit{Example.} ``I am going to visit my grandparents next weekend.'' 
+
+This indicates a pre-planned action.
+
+\vspace{0.5cm}
+
+	\textbf{``Will''} is used for spontaneous decisions made at the moment of speaking or for predictions about the future. 
+
+	\textit{Example.} ``I will help you with your homework.'' 
+
+This indicates a decision made on the spot or a prediction based on current knowledge.
+
 \end{tcolorbox}
 
 \section{Present Continuous for Future Arrangements}
@@ -128,6 +148,167 @@ Learners often confuse the use of ``going to'' and ``will''. Here are some commo
     \item Omitting the past participle after ``will have'' in the future perfect.
 \end{itemize}
 
+
+\section{Future Simple vs Future Continuous}
+
+The future simple describes actions that will happen, while the future continuous emphasizes actions that will be ongoing at a specific future time.
+
+\subsection{Timeline}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.0]
+        % Common styles
+        \tikzstyle{axis}=[->, thick, >=stealth, gray!80]
+        \tikzstyle{nowline}=[dashed, thick, gray]
+        
+        % --- Timeline 1: Future Simple ---
+        \node[anchor=west, blue!80!black, font=\bfseries] at (-0.5, 2.5) {Future Simple (Will)};
+        \draw[axis] (0, 1.5) -- (10, 1.5) node[right, font=\footnotesize] {Time};
+        
+        % NOW marker (top)
+        \draw[nowline] (1.5, 1.2) -- (1.5, 2.8);
+        \node[above, font=\bfseries, font=\small] at (1.5, 2.8) {NOW};
+        
+        % Event
+        \fill[blue] (6, 1.5) circle (3pt);
+        \node[above, blue, font=\footnotesize] at (6, 1.6) {Action happens};
+        \node[below, blue, font=\scriptsize, align=center] at (6, 1.4) {``I will call you.''};
+        
+        % Decision arrow
+        \draw[->, blue, dashed, bend left=20] (1.6, 1.6) to node[midway, above, font=\tiny] {Decision/Prediction} (5.8, 1.6);
+        \fill[blue] (1.5, 1.5) circle (2pt);
+
+        % --- Timeline 2: Future Continuous ---
+        \node[anchor=west, red!80!black, font=\bfseries] at (-0.5, -0.5) {Future Continuous};
+        \draw[axis] (0, -1.5) -- (10, -1.5) node[right, font=\footnotesize] {Time};
+        
+        % NOW marker (bottom)
+        \draw[nowline] (1.5, -1.8) -- (1.5, -0.2);
+        
+        % Duration
+        \draw[ultra thick, red!40] (4, -1.5) -- (8, -1.5);
+        \node[below, red!60, font=\tiny] at (6, -1.6) {Action in progress (duration)};
+        
+        % Specific moment
+        \fill[red] (6, -1.5) circle (3pt);
+        \draw[<-, red, thick] (6, -1.4) -- (6, -0.5) node[above, font=\footnotesize, align=center] {Specific Moment\\(e.g., ``at 8 p.m.'')};
+        \node[below, red, font=\scriptsize, align=center] at (6, -1.9) {``I will be flying.''};
+
+    \end{tikzpicture}
+    \caption{Visual Comparison: Future Simple vs. Future Continuous}
+    \label{fig:future_simple_vs_continuous}
+\end{figure}
+
+
+\section{Future Perfect vs Future Perfect Continuous}
+
+The future perfect describes actions that will be completed before a specific future time, while the future perfect continuous emphasizes the duration of an action up to that future point.
+
+\subsection{Timeline}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.0]
+        % Common styles
+        \tikzstyle{axis}=[->, thick, >=stealth, gray!80]
+        \tikzstyle{nowline}=[dashed, thick, gray]
+        
+        % --- Timeline 1: Future Perfect ---
+        \node[anchor=west, teal!80!black, font=\bfseries] at (-0.5, 2.5) {Future Perfect};
+        \draw[axis] (0, 1.5) -- (10, 1.5) node[right, font=\footnotesize] {Time};
+        
+        % NOW marker (top)
+        \draw[nowline] (1.5, 1.2) -- (1.5, 2.8);
+        \node[above, font=\bfseries, font=\small] at (1.5, 2.8) {NOW};
+        
+        % Future Point
+        \draw[thick, teal] (8, 1.4) -- (8, 1.6);
+        \node[below, teal, font=\footnotesize] at (8, 1.4) {Future Point};
+        
+        % Completed Action
+        \fill[teal] (6, 1.5) circle (3pt);
+        \node[above, teal, font=\footnotesize] at (6, 1.6) {Action Completed};
+        \draw[->, teal, dashed] (6.2, 1.5) -- (7.8, 1.5);
+        \node[below, teal, font=\scriptsize, align=center] at (6, 1.4) {``I will have finished.''};
+
+        % --- Timeline 2: Future Perfect Continuous ---
+        \node[anchor=west, olive!80!black, font=\bfseries] at (-0.5, -0.5) {Future Perfect Continuous};
+        \draw[axis] (0, -1.5) -- (10, -1.5) node[right, font=\footnotesize] {Time};
+        
+        % NOW marker (bottom)
+        \draw[nowline] (1.5, -1.8) -- (1.5, -0.2);
+        
+        % Future Point
+        \draw[thick, olive] (8, -1.6) -- (8, -1.4);
+        \node[below, olive, font=\footnotesize] at (8, -1.6) {Future Point};
+        
+        % Duration
+        \draw[ultra thick, olive!60] (2, -1.5) -- (8, -1.5);
+        \foreach \x in {2.2, 2.6, ..., 7.8} \draw[olive] (\x, -1.55) -- (\x, -1.45);
+        
+        \node[above, olive, font=\footnotesize] at (5, -1.4) {Duration up to future point};
+        \node[below, olive, font=\scriptsize, align=center] at (5, -1.9) {``I will have been working.''};
+
+    \end{tikzpicture}
+    \caption{Visual Comparison: Future Perfect vs. Future Perfect Continuous}
+    \label{fig:future_perfect_vs_continuous}
+\end{figure}
+
+
+\section{Future perfect continuous vs Future continuous}
+
+The future perfect continuous emphasizes the duration of an action up to a specific future point, while the future continuous focuses on an action that will be in progress at a specific future time.
+
+\subsection{Timeline}
+
+
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.0]
+        % Common styles
+        \tikzstyle{axis}=[->, thick, >=stealth, gray!80]
+        \tikzstyle{nowline}=[dashed, thick, gray]
+        
+        % --- Timeline 1: Future Perfect Continuous ---
+        \node[anchor=west, olive!80!black, font=\bfseries] at (-0.5, 2.5) {Future Perfect Continuous};
+        \draw[axis] (0, 1.5) -- (10, 1.5) node[right, font=\footnotesize] {Time};
+        
+        % NOW marker (top)
+        \draw[nowline] (1.5, 1.2) -- (1.5, 2.8);
+        
+        % Duration
+        \draw[ultra thick, olive!60] (2, 1.5) -- (8, 1.5);
+        \foreach \x in {2.2, 2.6, ..., 7.8} \draw[olive] (\x, 1.45) -- (\x, 1.55);
+        
+        \node[above, olive, font=\footnotesize] at (5, 1.6) {Duration up to future point};
+        \node[below, olive, font=\scriptsize, align=center] at (5, 1.4) {``I will have been working.''};
+
+        % --- Timeline 2: Future Continuous ---
+        \node[anchor=west, red!80!black, font=\bfseries] at (-0.5, -0.5) {Future Continuous};
+        \draw[axis] (0, -1.5) -- (10, -1.5) node[right, font=\footnotesize] {Time};
+        
+        % NOW marker (bottom)
+        \draw[nowline] (1.5, -1.8) -- (1.5, -0.2);
+        
+        % Duration
+        \draw[ultra thick, red!40] (4, -1.5) -- (8, -1.5);
+        \node[below, red!60, font=\tiny] at (6, -1.6) {Action in progress (duration)};
+
+        % Specific moment
+        \fill[red] (6, -1.5) circle (3pt);
+        \draw[<-, red, thick] (6, -1.4) -- (6, -0.5) node[above, font=\footnotesize, align=center] {Specific Moment\\(e.g., ``at 8 p.m.'')};
+        \node[below, red, font=\scriptsize, align=center] at (6, -1.9) {``I will be flying.''};
+
+    \end{tikzpicture}
+    \caption{Visual Comparison: Future Perfect Continuous vs. Future Continuous}
+    \label{fig:future_perf_cont_vs_continuous}
+\end{figure}
+
+
+
+
 \section{Practice Exercises}
 
 	extbf{Exercise 1: Complete with the correct future form (``will'', ``going to'', future continuous, or future perfect).}
@@ -149,7 +330,10 @@ Using future forms accurately lets you describe plans, make predictions, talk ab
 Use ``going to'' for planned actions; ``will'' for spontaneous decisions, promises, and predictions; the \textit{present continuous} for fixed arrangements; the \textit{future continuous} for actions in progress at a future time; the \textit{future perfect} for actions completed before a specific future time; and the \textit{future perfect continuous} to emphasize duration up to a future point.
 
 
-\subsection{Timeline Diagram}
+
+
+
+\subsection{Timeline Diagram Summary}
 
 \begin{figure}[H]
     \centering
@@ -205,3 +389,18 @@ Use ``going to'' for planned actions; ``will'' for spontaneous decisions, promis
     \caption{Visualizing Future Tenses}
     \label{fig:future_tenses}
 \end{figure}
+
+
+
+\section{Usage Tips}
+
+\begin{itemize}
+    \item Use ``going to'' for pre-planned actions; ``will'' for spontaneous decisions and predictions.
+    \item Use the present continuous for fixed arrangements with specified times.
+    \item Use the future continuous to describe actions in progress at a specific future time.
+    \item Use the future perfect to indicate actions completed before a future point.
+    \item Use the future perfect continuous to emphasize the duration of an action up to a future point.
+\end{itemize}
+
+
+
