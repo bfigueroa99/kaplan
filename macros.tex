@@ -7,6 +7,8 @@
 \definecolor{secondaryColor}{RGB}{255, 153, 51} % Orange
 \definecolor{accentColor}{RGB}{51, 153, 102}    % Green
 \definecolor{lightGray}{RGB}{245, 245, 245}
+\definecolor{kaplanPurple}{HTML}{000080}
+\definecolor{kaplanLight}{HTML}{EDE7F6}
 
 % Box for Vocabulary
 \newtcolorbox{vocabbox}[1][]{
@@ -49,3 +51,27 @@
 
 % Command for key terms
 \newcommand{\keyterm}[1]{\textbf{\color{primaryColor} #1}}
+
+% ============================================
+% Custom Title Page for Kaplan
+% ============================================
+\newcommand{\makekaplantitle}{%
+    \begin{titlepage}
+        \centering
+        \vspace*{1.5cm}
+
+        % Logo
+        \includegraphics[width=0.28\textwidth]{kaplan_inc_purple_(4)[1]-2999653380.jpg}\\[1.2cm]
+
+        % Title Block
+        {\huge\bfseries\color{kaplanPurple} Kaplan Course Notes}\par\vspace{0.4cm}
+        {\Large English Language}
+
+        \vfill
+
+        % Metadata
+        {\Large Benjamin Figueroa}\par\vspace{0.2cm}
+        {\large \today}
+
+    \end{titlepage}%
+}
