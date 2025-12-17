@@ -155,51 +155,51 @@ Use ``going to'' for planned actions; ``will'' for spontaneous decisions, promis
     \centering
     \begin{tikzpicture}[scale=0.85, transform shape]
         % Timeline axis
-        \draw[->, thick] (-1,0) -- (11,0) node[right] {Time};
+        \draw[->, thick] (-4,0) -- (9,0) node[right] {Time};
         
         % Now marker
-        \draw[thick, dashed] (2, -0.5) -- (2, 8.5);
-        \node[below] at (2, -0.5) {\textbf{NOW}};
+        \draw[thick, dashed] (0, -0.5) -- (0, 8.5);
+        \node[below] at (0, -0.5) {\textbf{NOW}};
 
         % 1. Future Simple (Will)
-        \node[anchor=west] at (-1, 8) {\textbf{1. Future Simple (Will)}};
-        \fill[red] (6, 8) circle (3pt);
-        \node[right, red, align=left] at (6.2, 8) {Action\\(Decision/Prediction)};
-        \draw[->, red, dashed] (2.2, 8) -- (5.8, 8);
+        \node[anchor=west] at (-7.5, 8) {\textbf{1. Future Simple (Will)}};
+        \fill[red] (5, 8) circle (3pt);
+        \node[right, red, align=left, font=\footnotesize] at (5.2, 8) {Action\\(Decision/Prediction)};
+        \draw[->, red, dashed] (0.2, 8) -- (4.8, 8);
+        \fill[red] (0, 8) circle (2pt) node[above left, font=\footnotesize] {Decision};
 
         % 2. Going To
-        \node[anchor=west] at (-1, 6.5) {\textbf{2. Going To}};
-        \draw[blue, thick, ->] (1, 6.5) -- (6, 6.5);
-        \fill[blue] (1, 6.5) circle (2pt) node[below] {\footnotesize Plan made};
-        \fill[blue] (6, 6.5) circle (3pt) node[right] {Action};
+        \node[anchor=west] at (-7.5, 6.5) {\textbf{2. Going To}};
+        \draw[blue, thick, ->] (-3, 6.5) -- (5, 6.5);
+        \fill[blue] (-3, 6.5) circle (2pt) node[below, font=\footnotesize] {Plan made};
+        \fill[blue] (5, 6.5) circle (3pt) node[right, font=\footnotesize] {Action};
 
         % 3. Present Continuous
-        \node[anchor=west] at (-1, 5) {\textbf{3. Present Continuous}};
-        \fill[orange] (6, 5) circle (3pt);
-        \node[right, orange] at (6.2, 5) {Fixed Arrangement};
-        \node[below, orange] at (6, 4.8) {\footnotesize (Time/Place set)};
+        \node[anchor=west] at (-7.5, 5) {\textbf{3. Present Continuous}};
+        \fill[orange] (5, 5) circle (3pt);
+        \node[right, orange, align=left, font=\footnotesize] at (5.2, 5) {Fixed Arrangement\\(Time/Place set)};
 
         % 4. Future Continuous
-        \node[anchor=west] at (-1, 3.5) {\textbf{4. Future Continuous}};
-        \draw[decorate, decoration={snake, amplitude=1pt, segment length=5pt}, thick, purple] (4, 3.5) -- (8, 3.5);
-        \fill[purple] (6, 3.5) circle (2pt);
-        \node[below, purple] at (6, 3.3) {\footnotesize Specific Time};
-        \node[right, purple] at (8, 3.5) {Action in Progress};
+        \node[anchor=west] at (-7.5, 3.5) {\textbf{4. Future Continuous}};
+        \draw[decorate, decoration={snake, amplitude=1pt, segment length=5pt}, thick, purple] (3, 3.5) -- (7, 3.5);
+        \fill[purple] (5, 3.5) circle (2pt);
+        \node[below, purple, font=\footnotesize] at (5, 3.3) {Specific Time};
+        \node[right, purple, font=\footnotesize] at (7, 3.5) {Action in Progress};
 
         % 5. Future Perfect
-        \node[anchor=west] at (-1, 2) {\textbf{5. Future Perfect}};
-        \draw[->, thick, teal] (3, 2) -- (7.8, 2);
-        \fill[teal] (8, 2) circle (2pt);
-        \node[below, teal] at (8, 1.8) {\footnotesize Future Point};
-        \node[above, teal] at (5.5, 2) {Completed Before};
+        \node[anchor=west] at (-7.5, 2) {\textbf{5. Future Perfect}};
+        \draw[->, thick, teal] (1, 2) -- (5.8, 2);
+        \fill[teal] (6, 2) circle (2pt);
+        \node[below, teal, font=\footnotesize] at (6, 1.8) {Future Point};
+        \node[above, teal, font=\footnotesize] at (3.5, 2) {Completed Before};
 
         % 6. Future Perfect Continuous
-        \node[anchor=west] at (-1, 0.5) {\textbf{6. Future Perf. Cont.}};
-        \draw[thick, olive] (3, 0.5) -- (8, 0.5);
-        \foreach \x in {3.2, 3.6, ..., 7.8} \draw[olive] (\x, 0.4) -- (\x, 0.6);
-        \fill[olive] (8, 0.5) circle (2pt);
-        \node[below, olive] at (8, 0.3) {\footnotesize Future Point};
-        \node[above, olive] at (5.5, 0.5) {Duration up to...};
+        \node[anchor=west] at (-7.5, 0.5) {\textbf{6. Future Perf. Cont.}};
+        \draw[thick, olive] (-2, 0.5) -- (6, 0.5);
+        \foreach \x in {-1.8, -1.4, ..., 5.8} \draw[olive] (\x, 0.4) -- (\x, 0.6);
+        \fill[olive] (6, 0.5) circle (2pt);
+        \node[below, olive, font=\footnotesize] at (6, 0.3) {Future Point};
+        \node[above, olive, font=\footnotesize] at (2, 0.5) {Duration up to...};
 
     \end{tikzpicture}
     \caption{Visualizing Future Tenses}
