@@ -151,23 +151,59 @@ Use ``going to'' for planned actions; ``will'' for spontaneous decisions, promis
 
 \subsection{Timeline Diagram}
 
-\begin{center}
-\begin{tikzpicture}
-    % Draw the timeline
-    \draw[thick, ->] (0,0) -- (12,0) node[right] {Time};
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=0.85, transform shape]
+        % Timeline axis
+        \draw[->, thick] (-1,0) -- (11,0) node[right] {Time};
+        
+        % Now marker
+        \draw[thick, dashed] (2, -0.5) -- (2, 8.5);
+        \node[below] at (2, -0.5) {\textbf{NOW}};
 
-    % Present
-    \draw[thick] (0,0.2) -- (0,-0.2) node[below] {Present};
+        % 1. Future Simple (Will)
+        \node[anchor=west] at (-1, 8) {\textbf{1. Future Simple (Will)}};
+        \fill[red] (6, 8) circle (3pt);
+        \node[right, red, align=left] at (6.2, 8) {Action\\(Decision/Prediction)};
+        \draw[->, red, dashed] (2.2, 8) -- (5.8, 8);
 
-    % Future
-    \draw[thick] (2,0.2) -- (2,-0.2) node[below] {Future};
+        % 2. Going To
+        \node[anchor=west] at (-1, 6.5) {\textbf{2. Going To}};
+        \draw[blue, thick, ->] (1, 6.5) -- (6, 6.5);
+        \fill[blue] (1, 6.5) circle (2pt) node[below] {\footnotesize Plan made};
+        \fill[blue] (6, 6.5) circle (3pt) node[right] {Action};
 
-    % Future Perfect
-    \draw[thick] (6,0.2) -- (6,-0.2) node[below] {Future Perfect};
+        % 3. Present Continuous
+        \node[anchor=west] at (-1, 5) {\textbf{3. Present Continuous}};
+        \fill[orange] (6, 5) circle (3pt);
+        \node[right, orange] at (6.2, 5) {Fixed Arrangement};
+        \node[below, orange] at (6, 4.8) {\footnotesize (Time/Place set)};
 
-    % Future Continuous
-    \draw[thick] (10,0.2) -- (10,-0.2) node[below] {Future Continuous};
+        % 4. Future Continuous
+        \node[anchor=west] at (-1, 3.5) {\textbf{4. Future Continuous}};
+        \draw[decorate, decoration={snake, amplitude=1pt, segment length=5pt}, thick, purple] (4, 3.5) -- (8, 3.5);
+        \fill[purple] (6, 3.5) circle (2pt);
+        \node[below, purple] at (6, 3.3) {\footnotesize Specific Time};
+        \node[right, purple] at (8, 3.5) {Action in Progress};
 
-\end{tikzpicture}
-\end{center}
+        % 5. Future Perfect
+        \node[anchor=west] at (-1, 2) {\textbf{5. Future Perfect}};
+        \draw[->, thick, teal] (3, 2) -- (7.8, 2);
+        \fill[teal] (8, 2) circle (2pt);
+        \node[below, teal] at (8, 1.8) {\footnotesize Future Point};
+        \node[above, teal] at (5.5, 2) {Completed Before};
+
+        % 6. Future Perfect Continuous
+        \node[anchor=west] at (-1, 0.5) {\textbf{6. Future Perf. Cont.}};
+        \draw[thick, olive] (3, 0.5) -- (8, 0.5);
+        \foreach \x in {3.2, 3.6, ..., 7.8} \draw[olive] (\x, 0.4) -- (\x, 0.6);
+        \fill[olive] (8, 0.5) circle (2pt);
+        \node[below, olive] at (8, 0.3) {\footnotesize Future Point};
+        \node[above, olive] at (5.5, 0.5) {Duration up to...};
+
+    \end{tikzpicture}
+    \caption{Visualizing Future Tenses}
+    \label{fig:future_tenses}
+\end{figure}
+
 
