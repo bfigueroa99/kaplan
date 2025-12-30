@@ -1,41 +1,54 @@
 # Kaplan English Course Notes
 
-A comprehensive LaTeX book for learning English, covering grammar, vocabulary, communication skills, and cultural topics. This book is organized into eight main parts, progressing from fundamental communication skills to advanced language patterns.
+A comprehensive LaTeX book for learning English, covering grammar, vocabulary, communication skills, and cultural topics. This book is organized into ten pedagogically-structured parts with 26 chapters, progressing from basic grammar foundations to advanced language patterns and integrated topics.
 
 ## 📚 Book Structure
 
-### Part I: Communication Fundamentals
-- **Chapter 1**: Non-verbal Communication - Body language, suffixes (-ly, -ed)
-- **Chapter 2**: Business English and Adverbs - Professional vocabulary, adverbs of comment
+### Part I: Foundation - Basic Tenses and Grammar
+- **Chapter 1**: Present Simple and Present Continuous - Foundation tenses, stative verbs, time expressions
+- **Chapter 2**: Past Simple Basics - Regular/irregular verbs, -ed pronunciation, questions and negatives
+- **Chapter 3**: Articles and Grammar Essentials - a/an/the usage, countable/uncountable nouns, word order
 
-### Part II: Essential Grammar
-- **Chapter 3**: Comparatives and Superlatives
-- **Chapter 4**: Modal Verbs (Can, Could, May, Might)
-- **Chapter 5**: Improvement, Action, and Verb Patterns
+### Part II: Communication Fundamentals
+- **Chapter 4**: Non-verbal Communication - Body language, suffixes (-ly, -ed)
+- **Chapter 5**: Business English and Adverbs - Professional vocabulary, adverbs of comment
 
-### Part III: Professional Communication
-- **Chapter 6**: Meeting Language and Professional Communication
-- **Chapter 7**: Present Perfect Continuous
-- **Chapter 8**: Writing Skills and Common Errors
+### Part III: Essential Grammar
+- **Chapter 6**: Comparatives and Superlatives - Comparative/superlative forms, (not) as...as, intensifiers
+- **Chapter 7**: Modal Verbs - Can, Could, May, Might, Must, Should for ability, permission, obligation
+- **Chapter 8**: Question Formation - Yes/no questions, WH-questions, subject vs object questions, question tags
+- **Chapter 9**: Prepositions of Place and Time - IN/AT/ON rules, transportation prepositions
 
-### Part IV: Past Tenses and Storytelling
-- **Chapter 9**: Mishaps and Past Experiences
-- **Chapter 10**: Past Habits (Would and Used To)
-- **Chapter 11**: Narrative Tenses for Storytelling
+### Part IV: Future Tenses
+- **Chapter 10**: Future Tenses - Will, Going To, Present Continuous for future, predictions vs plans
 
-### Part V: Culture and Traditions
-- **Chapter 12**: Cultural Traditions and Festivals
+### Part V: Professional Communication
+- **Chapter 11**: Meeting Language and Professional Communication - Meeting phrases, presentations, discussions
+- **Chapter 12**: Improvement, Action, and Verb Patterns - Professional vocabulary, verb + preposition patterns
 
-### Part VI: Advanced Verbal Patterns
-- **Chapter 13**: Verb Patterns - Gerunds and Infinitives
-- **Chapter 14**: Advanced Verb Patterns
+### Part VI: Perfect Tenses
+- **Chapter 13**: Present Perfect Simple - Formation, uses, vs Past Simple, for/since, ever/never/just/already/yet
+- **Chapter 14**: Present Perfect Continuous - Duration emphasis, continuous aspect, time expressions
 
-### Part VII: Future Tenses
-- **Chapter 15**: Future Tenses (Will, Going To, Present Continuous)
+### Part VII: Past Tenses and Storytelling
+- **Chapter 15**: Mishaps and Past Experiences - Describing accidents, problems, Past Simple in context
+- **Chapter 16**: Past Habits - Would and Used To for past routines and repeated actions
+- **Chapter 17**: Narrative Tenses for Storytelling - Past Simple, Past Continuous, Past Perfect sequencing
 
-### Part VIII: Integrated Topics
-- **Chapter 16**: Technology and Communication
-- **Chapter 17**: Superstitions, Travel, and Prepositions
+### Part VIII: Advanced Grammar
+- **Chapter 18**: The Passive Voice - Formation in all tenses, when to use passive, by+agent, formal contexts
+- **Chapter 19**: Conditionals - Zero, 1st, 2nd, 3rd conditionals, mixed conditionals, unless/as long as
+- **Chapter 20**: Reported Speech - Statement/question/command reporting, tense backshift, say vs tell
+
+### Part IX: Advanced Verbal Patterns
+- **Chapter 21**: Verb Patterns - Gerunds and Infinitives - Verb + -ing, verb + to infinitive, changes in meaning
+- **Chapter 22**: Advanced Verb Patterns - Complex patterns, causative verbs, perception verbs
+
+### Part X: Integrated Topics
+- **Chapter 23**: Cultural Traditions and Festivals - Cultural vocabulary, celebration descriptions
+- **Chapter 24**: Technology and Communication - Technology vocabulary, digital communication
+- **Chapter 25**: Travel, Superstitions, and Expressions - Travel phrases, beliefs, cultural expressions
+- **Chapter 26**: Writing Skills and Common Errors - Writing techniques, error correction, style improvement
 
 ### Appendices
 - **Vocabulary**: Comprehensive vocabulary reference
