@@ -2,6 +2,14 @@
 % CUSTOM MACROS AND ENVIRONMENTS
 % ============================================
 
+% Emoji and Special Character Replacements
+% Note: \checkmark is already defined by amssymb package
+% With XeLaTeX, Unicode characters work natively - no need for DeclareUnicodeCharacter
+\newcommand{\crossmark}{\textbf{[INCORRECT]}}
+
+% IPA Phonetic Symbols - handled natively by XeLaTeX with proper fonts
+% If needed, use \textipa commands from tipa package
+
 % Colors
 \definecolor{primaryColor}{RGB}{0, 102, 204}    % Blue
 \definecolor{secondaryColor}{RGB}{255, 153, 51} % Orange
