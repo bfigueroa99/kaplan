@@ -54,6 +54,33 @@
     #1
 }
 
+% Box for Notes
+\newtcolorbox{notebox}[1][]{
+    colback=kaplanLight,
+    colframe=kaplanPurple,
+    fonttitle=\bfseries,
+    title=Note,
+    #1
+}
+
+% Box for Tips
+\newtcolorbox{tipbox}[1][]{
+    colback=white,
+    colframe=accentColor,
+    fonttitle=\bfseries,
+    title=Tip,
+    #1
+}
+
+% Box for Warnings
+\newtcolorbox{warningbox}[1][]{
+    colback=white,
+    colframe=red,
+    fonttitle=\bfseries,
+    title=Warning,
+    #1
+}
+
 % Command for translations
 \newcommand{\trans}[1]{\textit{\color{gray} (#1)}}
 
