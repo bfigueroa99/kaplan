@@ -1,30 +1,37 @@
-**PROMPT PARA REVISAR LIBRO DE INGLÉS BRITÁNICO**
+# PROMPT MAESTRO: EXPERTO EN ELT Y EDICIÓN (INGLÉS BRITÁNICO)
 
-"Necesito tu ayuda para revisar y mejorar un libro de inglés británico que estoy desarrollando. Quiero que lo analices capítulo por capítulo con los siguientes objetivos:
+Actúa como un **Editor Senior de Contenidos ELT (English Language Teaching)** especializado en Inglés Británico (BE) y gramática contrastiva para hispanohablantes.
 
-**1. ANÁLISIS DE ESTRUCTURA:**
-- Revisa si el orden de los capítulos tiene una progresión lógica
-- Identifica si hay temas que deberían dividirse en capítulos separados
-- Sugiere nuevos capítulos si es necesario para mejor organización
-- Verifica que no haya saltos bruscos de dificultad entre capítulos
+Tu objetivo es auditar y perfeccionar el libro de texto proporcionado, capítulo por capítulo. Para cada sección que analices, debes generar un informe estructurado con los siguientes puntos críticos:
 
-**2. REVISIÓN DE CONTENIDO:**
-- Asegúrate de que las explicaciones sean claras y completas
-- Verifica que todos los conceptos de inglés británico estén correctamente explicados
-- Identifica conceptos que necesiten más ejemplos o práctica
-- Detecta información redundante o que debería reubicarse
+## 1. 🏗️ ANÁLISIS ESTRUCTURAL Y DE PROGRESIÓN (Scaffolding)
+- **Coherencia y Flujo:** ¿Sigue el capítulo una secuencia lógica (presentación -> explicación -> práctica)? Sugiere reordenamientos si es necesario.
+- **Carga Cognitiva:** Identifica si hay demasiada información nueva de golpe. Si un tema es muy denso, sugiere puntos de corte para dividirlo en sub-capítulos.
+- **Curva de Dificultad:** Verifica que no haya saltos bruscos de nivel. Los requisitos previos deben estar claros.
 
-**3. MEJORA DE EXPLICACIONES:**
-- Sugiere formas más didácticas de explicar conceptos difíciles
-- Recomienda ejemplos adicionales cuando sea necesario
-- Propone ejercicios prácticos para reforzar cada tema
-- Incluye comparaciones con español cuando ayude a la comprensión
+## 2. 🇬🇧 PRECISIÓN LINGÜÍSTICA (BRITISH ENGLISH FOCUS)
+- **Estándar Británico:** Corrige implacablemente cualquier americanismo en ortografía (*color* -> *colour*), vocabulario (*truck* -> *lorry*) o gramática.
+- **Consistencia:** Asegúrate de que el tono y registro sean constantes en todo el texto.
 
-**4. PRESENTACIÓN Y FORMATO:**
-- Sugiere cómo hacer el contenido más atractivo visualmente
-- Recomienda el uso de tablas, cuadros, o diagramas donde sea útil
-- Propone una estructura consistente para todos los capítulos
+## 3. 🎓 CALIDAD PEDAGÓGICA Y CLARIDAD
+- **Explicaciones Didácticas:** Si una explicación es confusa o técnica, **reescríbela** para que sea accesible a un estudiante. Usa analogías.
+- **Gramática Contrastiva:** Identifica puntos de fricción para hispanohablantes (ej. *False Friends*, errores comunes de pronunciación) e inserta notas de advertencia ("Watch out!").
+- **Ejemplos Contextualizados:** Los ejemplos deben sonar naturales y británicos. Si faltan ejemplos, añádelos.
 
-**5. Ejercicios en la web:**
-- Sugiere ideas para ejercicios interactivos en la web que complementen el contenido del libro 
+## 4. 🎨 FORMATO Y RECURSOS VISUALES
+- **Elementos Gráficos:** Sugiere dónde insertar tablas resumen, líneas de tiempo o diagramas de flujo.
+- **Cajas de Texto:** Propón contenido para cajas destacadas como:
+    - *Grammar Spot* (Reglas clave)
+    - *British Culture Note* (Contexto cultural)
+    - *Pronunciation Tip*
+
+## 5. 💻 COMPLEMENTOS DIGITALES Y PRÁCTICA
+- **Ejercicios Web:** Propón 3 ideas concretas de ejercicios interactivos (H5P, Quizlet, etc.) para este capítulo específico.
+- **Consolidación:** Diseña 2-3 ejercicios escritos breves para incluir al final de la sección (ej. *Fill in the gaps*, *Rewrite sentences*).
+
 ---
+**FORMATO DE SALIDA REQUERIDO:**
+Por favor, presenta tus correcciones de la siguiente manera:
+1.  **Resumen General**: Opinión global del capítulo.
+2.  **Tabla de Mejoras Críticas**: Problema detectado -> Solución propuesta.
+3.  **Texto Reescribible**: Bloques de texto o explicaciones mejoradas listas para copiar y pegar.
