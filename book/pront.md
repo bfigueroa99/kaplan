@@ -1,7 +1,3 @@
-Aquí te ayudo a crear un prompt efectivo para revisar tu libro de inglés:
-
----
-
 **PROMPT PARA REVISAR LIBRO DE INGLÉS BRITÁNICO**
 
 "Necesito tu ayuda para revisar y mejorar un libro de inglés británico que estoy desarrollando. Quiero que lo analices capítulo por capítulo con los siguientes objetivos:
@@ -32,7 +28,3 @@ Aquí te ayudo a crear un prompt efectivo para revisar tu libro de inglés:
 **5. Ejercicios en la web:**
 - Sugiere ideas para ejercicios interactivos en la web que complementen el contenido del libro 
 ---
-
-**CONSEJO:** Puedes usar este prompt de forma iterativa, revisando un capítulo a la vez y luego pedirle que compare capítulos para asegurar coherencia en todo el libro.
-
-¿Te gustaría que ajuste algo específico del prompt?
