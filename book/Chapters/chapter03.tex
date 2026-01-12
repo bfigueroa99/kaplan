@@ -1,5 +1,11 @@
 \chapter{Articles and Basic Grammar Essentials}
 
+\begin{center}
+\begin{tabular}{ccc}
+\cefrlevel{A1-A2} & \textbf{Study Time:} 2-3 hours & \textbf{Difficulty:} ⭐⭐⭐☆☆
+\end{tabular}
+\end{center}
+
 \section{Lesson Objectives}
 In this chapter, you will learn:
 \begin{itemize}
@@ -20,6 +26,25 @@ In this chapter, you will learn:
 \textbf{Employee:} Yes, we have \textbf{-} fresh bread every morning. It's near \textbf{the} bakery counter.\\
 \textbf{Customer:} Perfect. I love \textbf{-} fresh bread! (no article - general)
 \end{readingbox}
+
+\begin{britishbox}[title=🇬🇧 British Shopping Vocabulary]
+\textbf{British English terms you should know:}
+\begin{itemize}
+    \item \textbf{Supermarket} = Large food shop (Tesco, Sainsbury's, Asda)
+    \item \textbf{Corner shop} = Small local shop
+    \item \textbf{Off-licence} = Shop selling alcohol
+    \item \textbf{Trolley} (not "cart") = Shopping cart
+    \item \textbf{Queue} (not "line") = Line of people waiting
+    \item \textbf{Till} or \textbf{checkout} = Where you pay
+\end{itemize}
+\textbf{British institutions with "THE":}
+\begin{itemize}
+    \item \textbf{the NHS} (National Health Service)
+    \item \textbf{the BBC} (British Broadcasting Corporation)
+    \item \textbf{the Tube} (London Underground)
+    \item \textbf{the Post Office}
+\end{itemize}
+\end{britishbox}
 
 \section{Grammar Focus: Indefinite Articles (A / AN)}
 
@@ -119,6 +144,60 @@ Use \textbf{the} when both speaker and listener know \textbf{which specific thin
     \item This is \textbf{my} book. (NOT: the my book)
 \end{itemize}
 \end{grammarbox}
+
+\subsection{Visual Guide: Article Decision Flowchart}
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.5cm,
+    decision/.style={diamond, draw, fill=blue!20, text width=4em, text centered, inner sep=0pt},
+    block/.style={rectangle, draw, fill=green!20, text width=6em, text centered, rounded corners, minimum height=2em},
+    result/.style={rectangle, draw, fill=yellow!20, text width=5em, text centered, rounded corners, minimum height=2em}
+]
+
+% Start
+\node[block] (start) {START: Choose Article};
+
+% First decision
+\node[decision, below of=start, yshift=-0.5cm, text width=7em] (countable) {Is it countable?};
+\draw[->] (start) -- (countable);
+
+% If uncountable
+\node[result, left of=countable, xshift=-3.5cm] (no1) {\textbf{NO ARTICLE} (or some)};
+\draw[->] (countable) -- node[above] {No} (no1);
+
+% If countable
+\node[decision, below of=countable, yshift=-0.5cm, text width=7em] (singular) {Is it singular?};
+\draw[->] (countable) -- node[right] {Yes} (singular);
+
+% If plural
+\node[result, left of=singular, xshift=-3.5cm] (no2) {\textbf{NO ARTICLE} (or some/the)};
+\draw[->] (singular) -- node[above] {Plural} (no2);
+
+% If singular
+\node[decision, below of=singular, yshift=-0.5cm, text width=7em] (specific) {Specific or general?};
+\draw[->] (singular) -- node[right] {Singular} (specific);
+
+% If general
+\node[result, left of=specific, xshift=-3.5cm] (aan) {\textbf{A / AN}};
+\draw[->] (specific) -- node[above] {General} (aan);
+
+% If specific
+\node[result, below of=specific, yshift=-0.5cm] (the) {\textbf{THE}};
+\draw[->] (specific) -- node[right] {Specific} (the);
+
+\end{tikzpicture}
+\end{center}
+
+\begin{tipbox}[title=💡 Quick Memory Trick]
+\textbf{Remember: C.U.T.S.}
+\begin{itemize}
+    \item \textbf{C}ountable + \textbf{U}nique = THE (the sun, the moon)
+    \item \textbf{T}alking about \textbf{S}omething specific = THE (the book on the table)
+    \item First mention = A/AN
+    \item General plural or uncountable = NO ARTICLE
+\end{itemize}
+\end{tipbox}
 
 \section{Countable vs. Uncountable Nouns}
 
@@ -265,7 +344,40 @@ Find and correct the article errors.
     \item I go to the bed at 11 PM.
 \end{enumerate}
 
-\subsection{Exercise 5: Complete the Paragraph}
+\subsection{Exercise 6: British Places and Institutions}
+Complete these sentences about British places with the correct article (a, an, the, or -).
+
+\begin{enumerate}
+    \item I visited \underline{\hspace{2cm}} Tower of London last week.
+    \item She works for \underline{\hspace{2cm}} NHS (National Health Service).
+    \item Let's meet at \underline{\hspace{2cm}} Buckingham Palace.
+    \item I'm taking \underline{\hspace{2cm}} Tube to work today.
+    \item \underline{\hspace{2cm}} Big Ben is \underline{\hspace{2cm}} famous clock tower.
+    \item He studies at \underline{\hspace{2cm}} Oxford University.
+    \item We're going to \underline{\hspace{2cm}} Edinburgh next month.
+    \item I listen to \underline{\hspace{2cm}} BBC every morning.
+\end{enumerate}
+
+\begin{britishbox}[title=🇬🇧 Articles with British Place Names]
+\textbf{Use THE with:}
+\begin{itemize}
+    \item Rivers: \textbf{the} Thames, \textbf{the} Severn
+    \item Bridges: \textbf{the} Tower Bridge, \textbf{the} London Bridge
+    \item Museums: \textbf{the} British Museum, \textbf{the} V\&A
+    \item Palaces: \textbf{the} Tower of London, \textbf{the} Palace of Westminster
+    \item Underground: \textbf{the} Tube, \textbf{the} London Underground
+\end{itemize}
+\textbf{NO ARTICLE with:}
+\begin{itemize}
+    \item Cities: London, Manchester, Edinburgh
+    \item Universities: Oxford University, Cambridge University
+    \item Stations: King's Cross, Paddington Station
+    \item Parks: Hyde Park, Regent's Park
+    \item Streets: Oxford Street, Baker Street
+\end{itemize}
+\end{britishbox}
+
+\subsection{Exercise 7: Complete the Paragraph}
 Fill in the blanks with a, an, the, or - (no article).
 
 I work in \underline{\hspace{2cm}} office in \underline{\hspace{2cm}} London. I start work at 9 AM. Every morning, I have \underline{\hspace{2cm}} coffee and \underline{\hspace{2cm}} toast for breakfast. I take \underline{\hspace{2cm}} bus to work. \underline{\hspace{2cm}} bus is usually crowded. I have \underline{\hspace{2cm}} interesting job. I'm \underline{\hspace{2cm}} accountant. In \underline{\hspace{2cm}} evening, I like to read \underline{\hspace{2cm}} books. I also speak \underline{\hspace{2cm}} Spanish, so sometimes I read books in \underline{\hspace{2cm}} Spanish.

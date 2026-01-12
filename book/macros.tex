@@ -102,6 +102,43 @@
 % Command for incorrect answers
 \newcommand{\incorrect}{\textcolor{red}{\textbf{X}}}
 
+% Icons and symbols (using Unicode with XeLaTeX)
+\newcommand{\britishflag}{🇬🇧}
+\newcommand{\speakicon}{🗣️}
+\newcommand{\listenicon}{🎧}
+\newcommand{\writeicon}{✍️}
+\newcommand{\readicon}{📖}
+\newcommand{\warningicon}{⚠️}
+\newcommand{\tipicon}{💡}
+\newcommand{\keyicon}{🔑}
+
+% Box for British Culture Notes
+\newtcolorbox{britishbox}[1][]{
+    colback=blue!5,
+    colframe=red!60!blue,
+    fonttitle=\bfseries,
+    title=🇬🇧 British Culture Note,
+    #1
+}
+
+% Box for Pronunciation
+\newtcolorbox{pronunciationbox}[1][]{
+    colback=purple!5,
+    colframe=purple!60!black,
+    fonttitle=\bfseries,
+    title=🔊 Pronunciation,
+    #1
+}
+
+% Box for Comparisons (British vs American)
+\newtcolorbox{comparisonbox}[1][]{
+    colback=green!5,
+    colframe=green!60!black,
+    fonttitle=\bfseries,
+    title=British vs American English,
+    #1
+}
+
 % ============================================
 % Custom Title Page for Kaplan
 % ============================================
