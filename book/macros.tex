@@ -6,7 +6,16 @@
 % Note: \checkmark is already defined by amssymb package
 % With XeLaTeX, Unicode characters work natively - no need for DeclareUnicodeCharacter
 % However, we need a font that supports emojis
-\newfontfamily\emojifont{Symbola_hint.ttf}[Path=/usr/share/fonts/truetype/ancient-scripts/]
+% Using Symbola font if available, fallback to system default if not
+\IfFontExistsTF{Symbola}{
+    \newfontfamily\emojifont{Symbola}
+}{
+    \newfontfamily\emojifont{DejaVu Sans}[
+        Extension=.ttf,
+        UprightFont=*,
+        BoldFont=*-Bold
+    ]
+}
 
 % Map specific emojis to the emoji font
 % Use \mdseries (medium/normal) and \upshape (upright) to avoid looking for Bold/Italic emoji variants
