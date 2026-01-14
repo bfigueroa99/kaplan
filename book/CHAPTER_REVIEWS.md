@@ -387,3 +387,297 @@ Grábate diciendo: "I \textbf{can't work} on Saturdays because I have \textbf{cl
 - **Fortalezas:** Estructura clara, tablas excelentes, ejercicios variados
 - **Áreas de mejora:** Falta contraste español-inglés explícito, necesita más vocabulario británico auténtico, faltan False Friends críticos
 
+
+---
+
+## Capítulo 2: Past Simple: Basic Past Tense
+
+### 1. DIAGNÓSTICO GENERAL
+Capítulo bien estructurado con excelente progresión desde verbos regulares a irregulares. La caja de pronunciación es excepcional. Necesita más vocabulario británico auténtico y contrastes específicos con el español (pretérito vs. imperfecto).
+
+### 2. CORRECCIONES CRÍTICAS
+
+#### Errores de Dialecto/Vocabulario:
+- **Línea 22**: "cinema" es correcto (británico), pero el diálogo podría incluir más expresiones británicas
+- **Línea 37**: "Sunday roast" es perfecto, pero falta explicar qué es exactamente
+- **Línea 38**: "under the weather" excelente - pero podría añadirse "poorly" (británico informal)
+
+#### Lagunas de Contenido:
+- **Falta contraste Pretérito vs Imperfecto**: En español "I played football" puede ser "Jugué" o "Jugaba" - esto confunde
+- **Falta explicación**: Por qué "read" (pasado) se pronuncia /red/ pero se escribe igual
+- **Falta "False Friend"**: "actually" puede aparecer en pasado ("I actually went" vs "Actualmente fui")
+
+### 3. PROPUESTAS DE REESCRITURA (COPY-PASTE)
+
+#### A) Mejorar Diálogo con Más Vocabulario Británico
+
+```latex
+\section{Reading Context}
+\begin{readingbox}[title=Dialogue: Last Weekend]
+\textbf{Sarah:} What did you get up to last weekend?\\
+\textbf{Mike:} I \textbf{went} to the cinema on Saturday night. I \textbf{saw} the new James Bond film at the Odeon.\\
+\textbf{Sarah:} Oh brilliant! \textbf{Did} you \textbf{enjoy} it?\\
+\textbf{Mike:} Yes, I \textbf{loved} it! It \textbf{was} absolutely brilliant. The action scenes were ace! What about you?\\
+\textbf{Sarah:} I \textbf{stayed} in, I'm afraid. I \textbf{didn't go} out because I \textbf{had} a dreadful cold and \textbf{felt} quite poorly.\\
+\textbf{Mike:} Oh dear, that's rotten luck. \textbf{Did} you \textbf{manage} to rest?\\
+\textbf{Sarah:} Yes. I \textbf{watched} telly and \textbf{read} a good book. I also \textbf{rang} my mum for a proper chat.\\
+\textbf{Mike:} Good on you. Are you feeling better now?\\
+\textbf{Sarah:} Yes, much better, cheers!
+\end{readingbox}
+```
+
+**Vocabulario británico añadido:**
+- "get up to" (phrasal verb británico informal)
+- "film" (no "movie")
+- "Odeon" (cadena de cines británica famosa)
+- "brilliant", "ace" (británico informal para "great")
+- "stayed in" (quedarse en casa - británico)
+- "dreadful" (británico formal para "terrible")
+- "felt poorly" (sentirse mal - británico)
+- "rotten luck" (mala suerte - británico)
+- "rang my mum" (llamar - británico usa "ring" más que "call")
+- "proper chat" (buena charla - muy británico)
+- "Good on you" (bien hecho - australiano/británico)
+- "cheers" (gracias informal - muy británico)
+
+#### B) Añadir Caja de Contraste Pretérito vs Imperfecto
+
+```latex
+\begin{comparisonbox}[title=🇪🇸 Pretérito vs Imperfecto: Una Trampa para Hispanohablantes]
+\textbf{⚠️ PROBLEMA CLAVE:} En español tenemos DOS tiempos pasados (pretérito e imperfecto), pero en inglés Past Simple sirve para AMBOS.
+
+\begin{tabular}{|p{5cm}|p{5cm}|}
+\hline
+\textbf{Español (DOS formas)} & \textbf{Inglés (UNA forma)} \\
+\hline
+\textbf{Pretérito (acción terminada):}\\
+"Ayer \textit{jugué} fútbol" & 
+\multirow{3}{*}{I \textbf{played} football} \\
+\cline{1-1}
+\textbf{Imperfecto (hábito pasado):}\\
+"Cuando era niño \textit{jugaba} fútbol" & \\
+\hline
+\end{tabular}
+
+\textbf{Contexto es clave:}
+\begin{itemize}
+    \item "I played football \textbf{yesterday}." → Pretérito (ayer jugué)
+    \item "When I was young, I played football." → Imperfecto (jugaba)
+    \item "I played football for 5 years." → Puede ser ambos según contexto
+\end{itemize}
+
+\textbf{💡 Truco:} Si en español usarías imperfecto por ser hábito, añade:
+\begin{itemize}
+    \item "I \textbf{used to} play football" (Solía jugar / Jugaba)
+    \item "I \textbf{would} play football every day" (Jugaba todos los días)
+\end{itemize}
+\end{comparisonbox}
+```
+
+#### C) Expandir British Cinema Box
+
+```latex
+\begin{britishbox}[title=🇬�� British Cinema and Entertainment Culture]
+\textbf{Vocabulario esencial del cine británico:}
+\begin{itemize}
+    \item \textbf{Film} (NOT "movie") - "Did you see that film?"
+    \item \textbf{Cinema} (NOT "theater" or "movie theater") - "Let's go to the cinema"
+    \item \textbf{Odeon, Vue, Cineworld} - Principales cadenas de cines británicos
+    \item \textbf{Screen} - Sala de cine: "It's showing on screen 5"
+    \item \textbf{Booking} - Reserva: "I booked tickets online"
+\end{itemize}
+
+\textbf{Actividades de fin de semana típicas británicas:}
+\begin{itemize}
+    \item \textbf{Sunday roast} - Comida tradicional dominical (roast beef/chicken, Yorkshire pudding, roast potatoes, vegetables, gravy). Familias se reúnen en pubs o en casa.
+    \item \textbf{Going to the pub} - "We went to the local for a pint"
+    \item \textbf{Football} - "I watched the match" (no "game")
+    \item \textbf{Visiting National Trust properties} - Mansiones históricas
+\end{itemize}
+
+\textbf{Expresiones cuando estás enfermo (británico):}
+\begin{itemize}
+    \item "I felt \textbf{poorly}" (sentirse mal - muy británico)
+    \item "I was \textbf{under the weather}" (pachucho)
+    \item "I had \textbf{a dreadful cold}" (un resfriado terrible)
+    \item "I felt \textbf{quite rough}" (sentirse fatal)
+\end{itemize}
+
+\textbf{Fun fact:} James Bond (007) ha sido interpretado por 7 actores, 6 de ellos británicos: Sean Connery (escocés), Roger Moore, Timothy Dalton, Pierce Brosnan (irlandés), Daniel Craig. ¡Es el espía británico más famoso del mundo!
+\end{britishbox}
+```
+
+#### D) Añadir Warning sobre "READ" /red/
+
+```latex
+\begin{warningbox}[title=⚠️ IRREGULAR CONFUSO: READ]
+\textbf{El verbo más confuso del inglés para hispanohablantes:}
+
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Forma} & \textbf{Escritura} & \textbf{Pronunciación} \\
+\hline
+Presente & read & /riːd/ ("riid") \\
+\hline
+Pasado & read & /red/ ("red" como el color) \\
+\hline
+\end{tabular}
+
+\textbf{Ejemplos:}
+\begin{itemize}
+    \item Presente: "I \textbf{read} books every day" /riːd/
+    \item Pasado: "Yesterday I \textbf{read} a book" /red/
+\end{itemize}
+
+\textbf{💡 Cómo distinguirlos:}
+\begin{itemize}
+    \item Mira el CONTEXTO: palabras como "yesterday", "last week" → pasado /red/
+    \item Mira otros verbos: "I read and watched TV" → ambos son pasado
+\end{itemize}
+\end{warningbox}
+```
+
+#### E) Mejorar Ejercicios con Contexto Británico
+
+```latex
+\subsection{Exercise 1: Complete the Sentences - British Life}
+Complete the sentences using the Past Simple. All examples reflect British experiences.
+
+\begin{enumerate}
+    \item Last Saturday, I \underline{\hspace{3cm}} (go) to the cinema and \underline{\hspace{3cm}} (watch) a James Bond film.
+    \item My family \underline{\hspace{3cm}} (have) a traditional Sunday roast at the local pub yesterday.
+    \item She \underline{\hspace{3cm}} (feel) poorly, so she \underline{\hspace{3cm}} (not/go) to work.
+    \item We \underline{\hspace{3cm}} (take) the Tube to central London and \underline{\hspace{3cm}} (visit) the British Museum.
+    \item He \underline{\hspace{3cm}} (ring) his mum last night for a chat.
+    \item British people \underline{\hspace{3cm}} (queue) patiently when the bus \underline{\hspace{3cm}} (arrive).
+    \item I \underline{\hspace{3cm}} (buy) a ticket at the station and \underline{\hspace{3cm}} (catch) the train to Edinburgh.
+\end{enumerate}
+
+\textit{British vocabulary: cinema, film, Sunday roast, local (pub), felt poorly, Tube, ring (call), queue, station.}
+```
+
+### 4. SUGERENCIAS VISUALES
+
+1. **Línea 73-91**: La tabla de spelling rules es excelente. **Sugerencia**: Añadir una columna con ejemplos en español para que vean el patrón.
+
+2. **Línea 95-109**: La tabla de pronunciación /t/, /d/, /id/ es buenísima. **Mejora**: Añadir ejemplos de audio o referencia a recursos online de pronunciación británica (BBC Learning English).
+
+3. **Nueva sugerencia**: Crear una **línea de tiempo visual** mostrando:
+   ```
+   AYER ←─────────────── HOY ─────────────→ MAÑANA
+        [Past Simple]     [Present]     [Future]
+        I played          I play        I will play
+   ```
+
+4. **Línea 133-160**: La tabla de irregular verbs es perfecta. **Sugerencia**: Agrupar por patrones similares:
+   - Grupo 1: No cambian (put-put, cut-cut)
+   - Grupo 2: Cambian vocal (sing-sang, drink-drank)
+   - Grupo 3: Completamente diferentes (go-went, buy-bought)
+
+### 5. IDEAS DE EXPANSIÓN
+
+#### A) Ejercicio de Traducción Inversa Español→Inglés
+
+```latex
+\subsection{Exercise: Spanish to English Translation Challenge}
+Traduce estas frases prestando atención a pretérito vs imperfecto:
+
+\begin{enumerate}
+    \item "Ayer fui al cine con mis amigos." (acción terminada)
+    \item "Cuando era niño, iba al cine todos los sábados." (hábito pasado)
+    \item "Vi una película de James Bond la semana pasada."
+    \item "Me sentía mal, así que no salí de casa."
+    \item "Llamé a mi madre y hablamos durante una hora."
+\end{enumerate}
+
+\textbf{Pistas:}
+\begin{itemize}
+    \item Para hábitos pasados: considera usar "used to" o "would"
+    \item "Ayer" = yesterday, "la semana pasada" = last week
+    \item Británico: "cinema" (no movie theater), "film" (no movie), "ring" (call)
+\end{itemize}
+```
+
+#### B) Nota Cultural: British Politeness in Past Tense
+
+```latex
+\begin{britishbox}[title=💬 British Politeness: Using Past Tense]
+Los británicos usan el pasado para ser MÁS EDUCADOS:
+
+\textbf{Menos directo (más educado):}
+\begin{itemize}
+    \item "I \textbf{was wondering} if you could help me?" (mejor que "Can you help?")
+    \item "I \textbf{wanted} to ask you something." (más suave que "I want to ask")
+    \item "I \textbf{thought} we could go to the cinema?" (sugerencia educada)
+\end{itemize}
+
+\textbf{¿Por qué?} El pasado crea "distancia psicológica" = menos directo = más educado.
+
+\textbf{Contexto cultural:}
+\begin{itemize}
+    \item Los británicos valoran la cortesía y evitar conflictos
+    \item Ser demasiado directo puede parecer "rude" (grosero)
+    \item Esta es una diferencia clave con la cultura española, que tiende a ser más directa
+\end{itemize}
+\end{britishbox}
+```
+
+#### C) Pronunciation Practice Drill
+
+```latex
+\begin{pronunciationbox}[title=🔊 Minimal Pairs Practice: Past vs Present]
+\textbf{Practica estos pares para dominar el pasado:}
+
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Present} & \textbf{Past} & \textbf{Key Difference} \\
+\hline
+I live /lɪv/ & I lived /lɪvd/ & Add /d/ sound only \\
+\hline
+I work /wɜːk/ & I worked /wɜːkt/ & Add /t/ sound only \\
+\hline
+I want /wɒnt/ & I wanted /ˈwɒntɪd/ & Add syllable /ɪd/ \\
+\hline
+I play /pleɪ/ & I played /pleɪd/ & NOT "play-ed" \\
+\hline
+I watch /wɒtʃ/ & I watched /wɒtʃt/ & /t/ after /tʃ/ \\
+\hline
+\end{tabular}
+
+\textbf{🎯 Drill de práctica:}
+Repite 10 veces cada par enfocándote en NO añadir sílaba extra:
+\begin{itemize}
+    \item "play - played - play - played" (una sílaba cada uno)
+    \item "work - worked - work - worked" (una sílaba, /t/ al final)
+    \item "want - wanted - want - wanted" (dos sílabas el segundo)
+\end{itemize}
+\end{pronunciationbox}
+```
+
+---
+
+## Resumen de Mejoras Prioritarias para Capítulo 2:
+
+### ✅ Implementar inmediatamente:
+1. Británizar el diálogo con expresiones auténticas (get up to, brilliant, poorly, rang, cheers)
+2. Añadir caja de contraste Pretérito vs Imperfecto español
+3. Expandir British Cinema box con Sunday roast, expresiones de enfermedad
+4. Añadir warning sobre "read" /red/ vs /riːd/
+5. Británizar ejercicios con contexto real
+
+### 🟡 Implementar si hay espacio:
+1. Ejercicio de traducción inversa español→inglés
+2. Nota cultural sobre uso educado del pasado
+3. Pronunciation practice drill
+
+### 🟢 Opcional pero valioso:
+1. Línea de tiempo visual pasado-presente-futuro
+2. Agrupar irregular verbs por patrones
+3. Referencias a BBC Learning English para pronunciación
+
+---
+
+**Valoración Final del Capítulo 2:** ⭐⭐⭐⭐☆ (4/5)
+- **Fortalezas:** Excelente tabla de pronunciación, progresión clara, buenos ejemplos
+- **Áreas de mejora:** Falta contraste pretérito/imperfecto español, necesita más vocabulario británico, diálogo muy genérico
+
