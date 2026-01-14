@@ -5,6 +5,20 @@
 % Emoji and Special Character Replacements
 % Note: \checkmark is already defined by amssymb package
 % With XeLaTeX, Unicode characters work natively - no need for DeclareUnicodeCharacter
+% However, we need a font that supports emojis
+\newfontfamily\emojifont{Symbola_hint.ttf}[Path=/usr/share/fonts/truetype/ancient-scripts/]
+
+% Map specific emojis to the emoji font
+% Use \mdseries (medium/normal) and \upshape (upright) to avoid looking for Bold/Italic emoji variants
+\newunicodechar{⭐}{{\emojifont\mdseries\upshape ⭐}}
+\newunicodechar{☆}{{\emojifont\mdseries\upshape ☆}}
+\newunicodechar{☕}{{\emojifont\mdseries\upshape ☕}}
+\newunicodechar{💡}{{\emojifont\mdseries\upshape 💡}}
+\newunicodechar{❌}{{\emojifont\mdseries\upshape ❌}}
+\newunicodechar{✓}{{\emojifont\mdseries\upshape ✓}}
+\newunicodechar{🔊}{{\emojifont\mdseries\upshape 🔊}}
+
+
 \newcommand{\crossmark}{\textbf{[INCORRECT]}}
 
 % IPA Phonetic Symbols - handled natively by XeLaTeX with proper fonts
@@ -103,21 +117,22 @@
 \newcommand{\incorrect}{\textcolor{red}{\textbf{X}}}
 
 % Icons and symbols (using Unicode with XeLaTeX)
-\newcommand{\britishflag}{🇬🇧}
-\newcommand{\speakicon}{🗣️}
-\newcommand{\listenicon}{🎧}
-\newcommand{\writeicon}{✍️}
-\newcommand{\readicon}{📖}
-\newcommand{\warningicon}{⚠️}
-\newcommand{\tipicon}{💡}
-\newcommand{\keyicon}{🔑}
+\newcommand{\britishflag}{{\emojifont\mdseries\upshape 🇬🇧}}
+\newcommand{\speakicon}{{\emojifont\mdseries\upshape 🗣️}}
+\newcommand{\listenicon}{{\emojifont\mdseries\upshape 🎧}}
+\newcommand{\writeicon}{{\emojifont\mdseries\upshape ✍️}}
+\newcommand{\readicon}{{\emojifont\mdseries\upshape 📖}}
+\newcommand{\warningicon}{{\emojifont\mdseries\upshape ⚠️}}
+\newcommand{\tipicon}{{\emojifont\mdseries\upshape 💡}}
+\newcommand{\keyicon}{{\emojifont\mdseries\upshape 🔑}}
+\newcommand{\soundicon}{{\emojifont\mdseries\upshape 🔊}}
 
 % Box for British Culture Notes
 \newtcolorbox{britishbox}[1][]{
     colback=blue!5,
     colframe=red!60!blue,
     fonttitle=\bfseries,
-    title=🇬🇧 British Culture Note,
+    title=\britishflag\ British Culture Note,
     #1
 }
 
@@ -126,7 +141,7 @@
     colback=purple!5,
     colframe=purple!60!black,
     fonttitle=\bfseries,
-    title=🔊 Pronunciation,
+    title=\soundicon\ Pronunciation,
     #1
 }
 
