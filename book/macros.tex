@@ -6,8 +6,8 @@
 % Note: \checkmark is already defined by amssymb package
 % With XeLaTeX, Unicode characters work natively - no need for DeclareUnicodeCharacter
 % However, we need a font that supports emojis
-% Using DejaVu Sans as it is widely available in CI environments
-\newfontfamily\emojifont{DejaVu Sans}
+% Using Symbola for better emoji coverage
+\newfontfamily\emojifont{Symbola}
 
 % Map specific emojis to the emoji font
 % Use \mdseries (medium/normal) and \upshape (upright) to avoid looking for Bold/Italic emoji variants
@@ -18,12 +18,51 @@
 \newunicodechar{❌}{{\emojifont\mdseries\upshape ❌}}
 \newunicodechar{✓}{{\emojifont\mdseries\upshape ✓}}
 \newunicodechar{🔊}{{\emojifont\mdseries\upshape 🔊}}
+\newunicodechar{⚠}{{\emojifont\mdseries\upshape ⚠}}
+\newunicodechar{✅}{{\emojifont\mdseries\upshape ✅}}
+\newunicodechar{🚫}{{\emojifont\mdseries\upshape 🚫}}
+\newunicodechar{👇}{{\emojifont\mdseries\upshape 👇}}
+\newunicodechar{👉}{{\emojifont\mdseries\upshape 👉}}
+\newunicodechar{👈}{{\emojifont\mdseries\upshape 👈}}
+\newunicodechar{👍}{{\emojifont\mdseries\upshape 👍}}
+\newunicodechar{👎}{{\emojifont\mdseries\upshape 👎}}
+\newunicodechar{🤔}{{\emojifont\mdseries\upshape 🤔}}
+\newunicodechar{ˈ}{{\ipafont ˈ}}
+\newunicodechar{🇬}{{\emojifont\mdseries\upshape 🇬}}
+\newunicodechar{🇧}{{\emojifont\mdseries\upshape 🇧}}
+\newunicodechar{🇪}{{\emojifont\mdseries\upshape 🇪}}
+\newunicodechar{🇸}{{\emojifont\mdseries\upshape 🇸}}
+\newunicodechar{≠}{\ensuremath{\neq}}
+
 
 
 \newcommand{\crossmark}{\textbf{[INCORRECT]}}
 
-% IPA Phonetic Symbols - handled natively by XeLaTeX with proper fonts
-% If needed, use \textipa commands from tipa package
+% IPA Font
+\newfontfamily\ipafont{DejaVu Sans}
+
+% Common IPA symbols mapping
+\newunicodechar{ɪ}{{\ipafont ɪ}}
+\newunicodechar{ɒ}{{\ipafont ɒ}}
+\newunicodechar{ʌ}{{\ipafont ʌ}}
+\newunicodechar{ː}{{\ipafont ː}}
+\newunicodechar{θ}{{\ipafont θ}}
+\newunicodechar{ʃ}{{\ipafont ʃ}}
+\newunicodechar{ð}{{\ipafont ð}}
+\newunicodechar{ə}{{\ipafont ə}}
+\newunicodechar{ŋ}{{\ipafont ŋ}}
+\newunicodechar{ɜ}{{\ipafont ɜ}}
+\newunicodechar{ɔ}{{\ipafont ɔ}}
+\newunicodechar{ʊ}{{\ipafont ʊ}}
+\newunicodechar{ɑ}{{\ipafont ɑ}}
+\newunicodechar{æ}{{\ipafont æ}}
+\newunicodechar{ɛ}{{\ipafont ɛ}}
+
+% More Emojis
+\newunicodechar{📚}{{\emojifont\mdseries\upshape 📚}}
+\newunicodechar{📱}{{\emojifont\mdseries\upshape 📱}}
+\newunicodechar{✗}{{\emojifont\mdseries\upshape ✗}}
+\newunicodechar{️}{{\emojifont\mdseries\upshape ️}} % Variation Selector 16
 
 % Colors
 \definecolor{primaryColor}{RGB}{0, 102, 204}    % Blue
@@ -152,6 +191,15 @@
     colframe=green!60!black,
     fonttitle=\bfseries,
     title=British vs American English,
+    #1
+}
+
+% Box for Spanish Speaker Notes
+\newtcolorbox{spanishbox}[1][]{
+    colback=yellow!10,
+    colframe=red!70!black,
+    fonttitle=\bfseries,
+    title=For Spanish Speakers,
     #1
 }
 
