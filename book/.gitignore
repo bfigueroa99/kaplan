@@ -16,3 +16,6 @@
 
 # PDF output (uncomment if you don't want to track PDFs)
 # *.pdf
+
+# Backup files
+Chapters/backup_old/
